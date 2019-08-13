@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+    <name>Buscape_Fcontrol</name>
+    <version>0.1.9</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Extens&#xE3;o Buscap&#xE9; FControl para Magento</summary>
+    <description>&lt;p&gt;FControl extension for Magento uses neural network and artificial intelligence (AI) to detect frauds in real time through the score per customer in the risk scale.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;For more information, read the following manuals: &lt;a href="https://www.fcontrol.com.br/manuaisfcontrol/integracao/FilaAnalise/NormalEnglish.aspx"&gt;FControl - Analysis Queue&lt;/a&gt;, for stores with risk analysts, and &lt;a href="https://www.fcontrol.com.br/manuaisfcontrol/integracao/Frame/frame.aspx"&gt;FControl - Frame&lt;/a&gt;, for stores without risk analysts.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;For support, contacts us:  &lt;a href="mailto:suporte.developer@buscapecompany.com"&gt;suporte.developer@buscapecompany.com&lt;/a&gt;&lt;/p&gt;&#xD;
+&#xD;
+*&#xD;
+&#xD;
+&lt;p&gt;A extens&#xE3;o para Magento da FControl utiliza conhecimentos de rede neural e intelig&#xEA;ncia artificial para detectar fraudes em tempo real atrav&#xE9;s da pontua&#xE7;&#xE3;o do consumidor na escala de risco.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Para mais informa&#xE7;&#xF5;es, leia os seguintes manuais: &lt;a href="https://www.fcontrol.com.br/manuaisfcontrol/integracao/FilaAnalise/NormalEnglish.aspx"&gt;FControl - Fila de An&#xE1;lise&lt;/a&gt;, para lojas com analistas de risco, and &lt;a href="https://www.fcontrol.com.br/manuaisfcontrol/integracao/Frame/frame.aspx"&gt;FControl - Frame&lt;/a&gt;, para lojas sem analistas de risco.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Para suporte, mande um e-mail para:  &lt;a href="mailto:suporte.developer@buscapecompany.com"&gt;suporte.developer@buscapecompany.com&lt;/a&gt;&lt;/p&gt;</description>
+    <notes>Extens&#xE3;o Buscap&#xE9; Fcontrol para Magento CE 1.3+, PE 1.9+ e EE 1.7+.</notes>
+    <authors><author><name>Buscap&#xE9; Developer</name><user>buscapedev</user><email>suporte.developer@buscape-inc.com</email></author></authors>
+    <date>2013-06-06</date>
+    <time>17:52:34</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Buscape_Fcontrol.xml" hash="1883e6e4a5f712adbb28fc48b91b77ed"/></dir></target><target name="magecommunity"><dir name="Buscape"><dir name="Fcontrol"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="8a9cd394c7d05c875353b9a6a9c509f8"/><dir name="View"><file name="Info.php" hash="7c9df00716de71af13594b2a0459e82b"/></dir></dir><file name="Order.php" hash="306f634ac46d7dec061fd18e76f11e34"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="533804f2631993dbfd1d2cbb978510a1"/></dir><dir name="Model"><dir name="Adapter"><file name="Payment.php" hash="48a581bdb1a6473e9ce3986219d65281"/><file name="Shipping.php" hash="d40c268415ec2a2c50870bf811176b44"/></dir><dir name="Api"><file name="Abstract.php" hash="1c09c03e3ded8330776d4c8b207c6023"/></dir><file name="Api.php" hash="849b4185338eb165e2460e5994d6f607"/><file name="Config.php" hash="fab005089945576b2b6cf4ecf076d3af"/><file name="Observer.php" hash="8b68046645290c9f91957fa38a1df290"/><dir name="Source"><file name="Service.php" hash="ce9458ee8419c55346ab96ead62915de"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Sales"><file name="OrderController.php" hash="d5689003f317b36edf4f29f87762d522"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="757eedfa882bc286981a3c82a0002a5b"/><file name="system.xml" hash="0bbf7e2fd0ffc57a30f02fc2211c616d"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="buscape"><dir name="fcontrol"><dir name="sales"><dir name="order"><dir name="view"><file name="info.phtml" hash="d413cbc0c742f78e24e5dfcd1859dc66"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="magelib"><dir name="nusoap"><file name="nusoap.php" hash="be25f8f414d3bc104fa32fd33d1ca670"/><file name="nusoap_base.php" hash="2b58ef48c2588c9eb1e197e609cf3578"/><file name="nusoap_fault.php" hash="b1e071de96ac6ec4401fc3378985b915"/><file name="nusoapmime.php" hash="385906df53d95e99d44a3ccf826657b0"/><file name="soap_parser.php" hash="5fd16dfe735ba059a2bcd6f13b2e4200"/><file name="soap_server.php" hash="7335a46989fcb2e6a0cb094bea9636f6"/><file name="soap_transport_http.php" hash="47e7e9295559211833aa733259ae4426"/><file name="soap_val.php" hash="bfe395c44feee1833806ffb87f53d301"/><file name="soapclient.php" hash="a386ecd977dcef79dacebd596808773f"/><file name="wsdl.php" hash="848f9fce1e0da0d88584d0e6ca1f242d"/><file name="wsdlcache.php" hash="e06853ca25271b5cb4b8a7016c960a40"/><file name="xmlschema.php" hash="5d5c67fd3e30dd96a186551a7c7221c8"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

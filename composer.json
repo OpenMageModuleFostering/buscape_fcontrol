@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Buscape_Fcontrol",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Extensão Buscapé FControl para Magento",
+    "authors": [
+    {
+        "name": "Buscap\u00e9 Developer",
+        "email": "suporte.developer@buscape-inc.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
